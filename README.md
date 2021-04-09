@@ -6,10 +6,9 @@ go get -u github.com/bugfan/srv
 ```
 
 ## Usage
+[Refer to this test file](https://github.com/bugfan/srv/blob/master/srv_test.go "test file")
+
 ```
-// Refer to [this test file](https://github.com/bugfan/srv/blob/master/srv_test.go "test file")
-
-
 addr := ":8080"
 s := srv.New("addr")
 
